@@ -286,8 +286,12 @@ people.sort(key=lambda x: x['last_name'].lower())
 with open('data/deployments.yml') as deployments_data_file:
     deployments = yaml.load(deployments_data_file)
 
+with open('data/cloud_deployments.yml') as cloud_deployments_data_file:
+    cloud_deployments = yaml.load(cloud_deployments_data_file)
+
 html_context = {
     'people': people,
     'deployments': deployments,
+    'cloud_deployments': cloud_deployments,
     'catalog': catalog
 }

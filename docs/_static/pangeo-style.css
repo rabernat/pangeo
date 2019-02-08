@@ -128,3 +128,8 @@ h3 {
 .data-catalog pre {
     margin-bottom: 0px;
 }
+
+/* cloud hubs stuff */
+.jhub {
+    background-color: #ccc;
+}

@@ -1,0 +1,23 @@
+- name: Google Cloud Platform
+  image: google_cloud_platform.png
+
+  hubs:
+    - name: atmos.pangeo.io
+      description: JupyterHub for atmospheric science in the cloud. Currently
+        used by TRACMIP project.
+      link: http://atmos.pangeo.io
+      access: Join the [pangeo-atmos](https://github.com/orgs/pangeo-data/teams/pangeo-atmos) github team
+
+    - name: ocean.pangeo.io
+      description: JupyterHub for physical oceanography, providing access and computing
+        for a wide range of observational and model datasets
+      link: http://ocean.pangeo.io
+      access: Join the [pangeo-ocean](https://github.com/orgs/pangeo-data/teams/pangeo-atmos) github team
+
+- name: Amazon Web Services
+  image: amazon_web_services.png
+
+  hubs:
+    - name: esipfed.pangeo.io
+      description: Shared JupyterHub for the ESIP community
+      link: http://esipfed.pangeo.io

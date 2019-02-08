@@ -48,6 +48,7 @@ Contents
    about
    faq
    quickstart
+   cloud
    packages
    use_cases/index
    architecture
